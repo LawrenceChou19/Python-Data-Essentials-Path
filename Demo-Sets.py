@@ -31,3 +31,11 @@ print(categories)
 categories.pop()
 print(categories)
 
+A = {'coffee','electronics','vegetables','fruits','seafood'}
+B = {'fruits','clothing','beverages','meat','vegetables'}
+
+print('A.union is ', A.union(B))
+print('A.intersection is ', A.intersection(B))
+print('B.difference is ', B.difference(A))
+print('B.issubset is ', B.issubset(A))
+print('B.issuperset is ', B.issuperset(A))

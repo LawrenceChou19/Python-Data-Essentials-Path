@@ -85,3 +85,17 @@ print(inventory)
 
 inventory = {'mango': 30,'kiwi': 20, 'orange': 10}
 print(inventory)
+
+inventory_copy = inventory
+
+print(inventory_copy)
+
+inventory_copy.update({'lemon': 5 })
+print(inventory)
+print(inventory_copy)
+#copy() method
+supply= inventory.copy()
+print(supply)
+supply.update({'apple':10})
+print(inventory)
+print(supply)

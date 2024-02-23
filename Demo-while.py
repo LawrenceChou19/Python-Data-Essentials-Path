@@ -60,6 +60,7 @@ print("Moving on !")
 
 
 #improve
+print("Grocery list program.")
 grocery_list =[]
 while True:
     user_input = input("Input an item (type 'end' to finish): ")

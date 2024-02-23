@@ -4,7 +4,8 @@
 #     print("You are in debt.")
 # if balance >= 0:
 #     print("You are not in debt.")
-#     if balance < 2000:
+#     if bal
+# ance < 2000:
         
 #         print("You cannot ask for a loan")
 #     if balance >= 2000:

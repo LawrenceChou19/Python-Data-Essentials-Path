@@ -47,3 +47,20 @@ def find_in_list(some_list,item_name="bread"):
 find_in_list(item_name="carrots",some_list=grocery_list)
 find_in_list(grocery_list,"bread")
 find_in_list(grocery_list)
+separate_section()
+    
+
+def print_params(x,*args):
+    print("x:",x)
+    print("args:",args)
+    print("args[0]",args[0])
+print_params("a","b","c","d")
+separate_section()
+    
+def print_params(x,*args, **kwargs):
+    print("x:",x)
+    print("args:",args)
+    print("args[0]",args[0])
+    print("kwargs:",kwargs)
+    print("kwargs['first']:",kwargs['first'])
+print_params("a","b","c","d",first="e",second="f")

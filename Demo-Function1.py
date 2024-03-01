@@ -10,13 +10,15 @@ while True:
         break
     grocery_list.append(user_input)
     
+    
+
 # print("-" * 20)
 separate_section()
 
 print("Here is your grocery list:")
 for item in grocery_list:
     print(f"{item}")
-    
+     
 # print("-" * 20)    
 separate_section()
     
